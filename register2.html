@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Registration
+</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+
+function validateForm() {
+var x = document.forms["myform"]["fname"].value;
+   
+    var z = document.forms["myform"]["mail"].value;
+    var w = document.forms["myform"]["mobile"].value;
+   
+     if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+	
+    
+	if (z == "") {
+        alert("Mail must be filled out");
+        return false;
+    }
+	if (w == "") {
+        alert("Mobile no. must be filled out");
+        return false;
+    }
+}
+</script>
+</head>
+<body bgcolor="lightyellow">
+<div class="container">
+
+<h1><fontsize="10">	
+<center>
+<font style="font-family:Lucida Handwriting" size="20" style="italic bold" color="darkslateblue">Register for clubs
+</center>
+</font>
+<br/>
+<br/>
+</div>
+
+</div><div class="container" style="margin:auto ; border:1px solid black; width:1200px">
+<font style="font-family:Lucida Handwriting" size="20" style="italic bold" color="darkslateblue"><u>
+Registration</u></font>
+<div>
+<img src="c.jpg" width="500" height="320" align="right">
+</br>
+
+
+<form name="myform"  onsubmit="return validateForm()" method="post">
+
+<pre> Name: <input type ="text" length="40" name="fname" placeholder="type your name here" required></input></br></pre>
+
+<pre> E-mail:<input type ="email" length="80" name="mail" placeholder="username@gmail.com" required></input></br></pre>
+
+<pre>Mobile no:<input type="tel" pattern="[789][0-9]{9}" placeholder="type your number" name="mobile" required></input></br></pre>
+
+<pre> Gender: <input type="radio" name="gender" id="male" value="male"> Male
+          <input type="radio" name="gender" id="female" value="female">Female<br></pre>
+
+ <pre>comment:
+	  <textarea rows="3" cols="80" placeholder="Type your address here" required></textarea></br></pre>
+
+</br>
+ <input type="submit" value="Submit" ></input>
+<input type="reset" value="Reset"></input>
+
+</form>
+</div>
+</div>
+</body>
+</html>

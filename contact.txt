@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>contact</title>
+
+</head>
+<body bgcolor="lightblue">
+<div class="container">
+<h1><fontsize="10">	
+<marquee behavior="alternate" ><img src="logo1.png" height="90" align="left"></img>
+
+
+<font style="font-family:Lucida Handwriting" size="20" style="italic bold" color="darkslateblue">Contact Office
+<img src="logo1.png" height="90"></img>
+</marquee>
+</font>
+<br/>
+<br/>
+</div>
+<div class="container" style="margin:auto ; border:1px solid black; width:1200px">
+<font style="font-family:Lucida Handwriting" size="20" style="italic bold" color="darkslateblue">
+<u>Contact us</u></font>
+<img src="geca1.jpg" width="850" height="333" align="right">
+<ul>
+<li><u><b>Address:</b></u><br/>Near coffee shop</br>wings room </br>geca</br>Aurangabad - 431001, Maharashtra, India.</br></li>
+</br>
+<li><u><b>Contact:</b></u></br>Phone No. : +91 7057450538 / 9764414524 / 02402364440</br></li>
+</br>
+<li><u><b>Email:</b></u><br/> clubhouse@geca.ac.in</br></li></br>
+</ul>
+</div>
+</body>
+</html>
